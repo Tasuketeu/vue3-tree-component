@@ -41,7 +41,7 @@ describe('TreeStore', () => {
 
 	it('getAllChildren возвращает всех детей рекурсивно', () => {
 		const allChildren = treeStore.getAllChildren(1);
-		expect(allChildren).toHaveLength(6);
+		expect(allChildren).toHaveLength(7);
 		expect(allChildren.map((c) => c.id)).toEqual([3, '91064lcee', 6, 5, 4, 8, 7]);
 	});
 
