@@ -1,0 +1,47 @@
+{
+	"name": "vue3-tree-component",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"preview": "vite preview",
+		"lint": "eslint . --fix",
+		"lint:no-fix": "eslint .",
+		"format": "prettier --write .",
+		"type-check": "vue-tsc --noEmit",
+		"build:strict": "vue-tsc --noEmit && vite build",
+		"test": "vitest",
+		"test:ui": "vitest --ui"
+	},
+	"dependencies": {
+		"ag-grid-community": "34.3.1",
+		"ag-grid-enterprise": "34.3.1",
+		"ag-grid-vue3": "34.3.1",
+		"bootstrap": "^5.3.0",
+		"core-js": "^3.32.0",
+		"pinia": "^2.1.0",
+		"vitest": "^4.0.13",
+		"vue": "^3.3.0"
+	},
+	"devDependencies": {
+		"@types/node": "^24.10.1",
+		"@typescript-eslint/eslint-plugin": "^6.21.0",
+		"@typescript-eslint/parser": "^6.21.0",
+		"@vitejs/plugin-vue": "^4.5.0",
+		"@vitest/ui": "^0.34.0",
+		"eslint": "^8.0.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-vue": "^9.0.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.6",
+		"prettier": "^3.0.0",
+		"terser": "^5.44.1",
+		"typescript": "5.6.2",
+		"vite": "^4.5.0",
+		"vitest": "^0.34.0",
+		"vue-eslint-parser": "^10.2.0",
+		"vue-tsc": "2.0.29"
+	}
+}
