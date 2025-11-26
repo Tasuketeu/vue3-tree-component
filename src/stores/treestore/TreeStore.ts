@@ -7,18 +7,6 @@ export interface TreeItem {
 	[key: string]: unknown;
 }
 
-export interface UpdateItemData {
-	id: ItemId;
-	[key: string]: any;
-}
-
-// Для AG Grid
-export interface GridContextMenuParams {
-	node: {
-		data: TreeItem;
-	};
-}
-
 export class TreeStore {
 	private items: Map<string | number, TreeItem>;
 	private children: Map<string | number, TreeItem[]>;
